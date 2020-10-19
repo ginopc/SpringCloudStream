@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        output:
+          binder: kafka
+          destination: usage-detail
+  main:
+    allow-bean-definition-overriding: true
