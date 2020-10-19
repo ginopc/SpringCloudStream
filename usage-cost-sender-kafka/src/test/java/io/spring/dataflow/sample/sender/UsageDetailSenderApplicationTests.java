@@ -1,11 +1,10 @@
-package io.spring.dataflow.sample.usagedetailsender;
+package io.spring.dataflow.sample.sender;
 
-import io.spring.dataflow.sample.UsageDetail;
-import io.spring.dataflow.sample.usagedetailsender.UsageDetailSenderApplication;
+import io.spring.dataflow.sample.UsageDetailSenderApplication;
+import io.spring.dataflow.sample.model.UsageDetail;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.cloud.stream.binder.test.OutputDestination;
 import org.springframework.cloud.stream.binder.test.TestChannelBinderConfiguration;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -15,7 +14,6 @@ import org.springframework.messaging.converter.MessageConverter;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@SpringBootTest
 class UsageDetailSenderApplicationTests {
 
 	@Test

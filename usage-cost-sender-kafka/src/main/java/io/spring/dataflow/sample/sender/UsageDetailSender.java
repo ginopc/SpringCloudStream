@@ -1,6 +1,6 @@
-package io.spring.dataflow.sample.usagedetailsender;
+package io.spring.dataflow.sample.sender;
 
-import io.spring.dataflow.sample.UsageDetail;
+import io.spring.dataflow.sample.model.UsageDetail;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

@@ -1,4 +1,4 @@
-package io.spring.dataflow.sample.usagedetailsender;
+package io.spring.dataflow.sample;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
