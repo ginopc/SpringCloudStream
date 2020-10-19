@@ -1,6 +1,7 @@
-package io.spring.dataflow.sample.usagecostprocessor;
+package io.spring.dataflow.sample;
 
-import io.spring.dataflow.sample.usagecostprocessor.usagecostprocessor.UsageCostProcessorApplication;
+import io.spring.dataflow.sample.model.UsageCostDetail;
+import io.spring.dataflow.sample.model.UsageDetail;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.builder.SpringApplicationBuilder;

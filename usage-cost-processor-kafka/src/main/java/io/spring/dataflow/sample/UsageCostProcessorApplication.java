@@ -1,4 +1,4 @@
-package io.spring.dataflow.sample.usagecostprocessor.usagecostprocessor;
+package io.spring.dataflow.sample;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

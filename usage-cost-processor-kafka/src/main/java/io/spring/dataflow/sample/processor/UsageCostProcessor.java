@@ -1,7 +1,7 @@
-package io.spring.dataflow.sample.usagecostprocessor.usagecostprocessor;
+package io.spring.dataflow.sample.processor;
 
-import io.spring.dataflow.sample.usagecostprocessor.UsageCostDetail;
-import io.spring.dataflow.sample.usagecostprocessor.UsageDetail;
+import io.spring.dataflow.sample.model.UsageCostDetail;
+import io.spring.dataflow.sample.model.UsageDetail;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

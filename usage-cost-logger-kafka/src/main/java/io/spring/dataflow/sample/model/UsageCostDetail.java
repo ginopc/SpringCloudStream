@@ -1,13 +1,13 @@
-package io.spring.dataflow.sample.usagecostprocessor;
+package io.spring.dataflow.sample.model;
 
 /**
  * <pre>
  *
  * Title: UsageCostDetail class
- * Description: class description and scope
+ * Description: Usage Cost Detail DTO
  *
  * Copyright: Copyright (c) 2020
- * Company: Ginux
+ * Company:
  * </pre>
  *
  * @author Maurizio Aru (ginopc@tiscali.it)
@@ -18,9 +18,6 @@ public class UsageCostDetail {
     private String userId;
     private double callCost;
     private double dataCost;
-
-    public UsageCostDetail() {
-    }
 
     public UsageCostDetail(String userId, double callCost, double dataCost) {
         this.userId = userId;
@@ -50,5 +47,14 @@ public class UsageCostDetail {
 
     public void setDataCost(double dataCost) {
         this.dataCost = dataCost;
+    }
+
+    @Override
+    public String toString(){
+        return "{" +
+                "\"user\": " + this.getUserId() +
+                ", \"callCost\" : " + this.getCallCost() +
+                ", \"dataCost\" : " + this.getDataCost() +
+                "}";
     }
 }
