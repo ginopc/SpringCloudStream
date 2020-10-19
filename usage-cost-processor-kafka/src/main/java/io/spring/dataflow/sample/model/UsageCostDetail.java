@@ -1,4 +1,4 @@
-package io.spring.dataflow.sample.usagecostprocessor;
+package io.spring.dataflow.sample.model;
 
 /**
  * <pre>
