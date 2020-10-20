@@ -15,9 +15,13 @@ package io.spring.dataflow.sample.model;
  */
 public class UsageCostDetail {
 
+
     private String userId;
     private double callCost;
     private double dataCost;
+
+    public UsageCostDetail() {
+    }
 
     public UsageCostDetail(String userId, double callCost, double dataCost) {
         this.userId = userId;
